@@ -1,0 +1,114 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    background-image: url(../img/fon.jpg);
+    background-size: 100%;
+}
+header {
+    margin-bottom: 20px;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.menu {
+    text-decoration: none;
+    background: #1a73e8;
+    color: #fff;  
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 5px 7px;
+    border-radius: 10px;
+}
+.form {
+    color: #fff;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.post {
+    width: 40%;
+    margin: 50px auto;
+    text-align: center;
+    background-color: rgba(137, 43, 226, 0.6);
+    border-radius: 15px;
+}
+h2 {
+    color: #fff;
+    width: 80%;
+    height: 15%;
+    margin:20px auto;
+}
+img {
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+.descr {
+    display: none;
+}
+.btn {
+    margin: 20px;
+}
+.form-check {
+    padding: 0;
+}
+.normal-mode {
+    display: none;
+}
+
+.edit-mode {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+.categories {
+    display: flex;
+    justify-content: center;
+    padding: 35px 0;
+}
+.category {
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.accordion{
+    text-decoration: none;
+    background-color: rgba(137, 43, 226, 0.6) ;
+}
+.accordion-item{
+    background-color: rgba(137, 43, 226, 0.6) ;
+    border: none;
+}
+.accordion-button {
+    width: 80%;
+    background-color: rgba(137, 43, 226, 0.6);
+    margin: auto;
+}
+.accbg {
+    background-color: rgba(137, 43, 226, 0.6);
+}
+.pages {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.page-link {
+    background-color: #1a73e8;
+    color: white;
+    text-decoration: none;
+} 
